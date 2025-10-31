@@ -226,7 +226,7 @@ nvim
 ## Credits
 
 - [`blink.cmp`](https://github.com/Saghen/blink.cmp) – Fastest completion
-- [`matugen`](https://github.com/Inioch/matugen) – Dynamic colors
+- [`matugen`](https://github.com/InioX/matugen) – Dynamic colors
 - [`lazy.nvim`](https://github.com/folke/lazy.nvim) – Plugin manager
 - All plugin authors
 
