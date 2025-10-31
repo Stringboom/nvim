@@ -1,4 +1,4 @@
-# Johan’s Neovim Config  
+# My super duper cool neovim Config ... 
 *Fast. Minimal. Beautiful. Dynamic.*
 
 ![Neovim Screenshot](https://cdn.freebiesupply.com/logos/thumbs/2x/neovim-logo.png)
@@ -43,7 +43,7 @@
 Your Neovim theme **changes with your wallpaper**.
 
 ```lua
--- ~/.config/nvim/colors/matugen.lua
+-- ~/.config/nvim/colors.lua
 return {
   colors = {
     bg = "#1a120d",
@@ -56,12 +56,12 @@ return {
 
 - `matugen` watches your wallpaper
 - Generates a color palette
-- Writes to `~/.config/nvim/colors/matugen.lua`
+- Writes to `~/.config/nvim/colors.lua`
 - Neovim **auto-reloads** the theme
 
 ```lua
 -- Auto-reload on change
-BufWritePost ~/.config/nvim/colors/matugen.lua → MatugenThemeApply
+BufWritePost ~/.config/nvim/colors.lua → MatugenThemeApply
 ```
 
 ---
@@ -178,7 +178,7 @@ trigger = {
 │   │   │   └── blink.lua
 │   │   └── treesitter/
 │   │       └── treesitter.lua
-└── colors/matugen.lua  ← generated
+└── colors.lua  ← generated
 ```
 
 ---
