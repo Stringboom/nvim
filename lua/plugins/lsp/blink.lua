@@ -22,7 +22,6 @@ return {
 		},
 
 		appearance = {
-			nerd_font_source = true, -- Must be true
 			kind_icons = {
 				Text = "", -- Text
 				Method = "", -- Method

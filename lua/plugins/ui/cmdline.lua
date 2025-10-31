@@ -10,9 +10,15 @@ return {
 		cmdline = {
 			enabled = true,
 			view = "cmdline_popup", -- floating window
-			opts = {},
+			opts = {
+				disable_cmdline_for_keymaps = true,
+			},
 			format = {
 				cmdline = { pattern = "^:", icon = "", lang = "vim" },
+			},
+			filter = {
+				pattern = { "^:w", "^:write", "^:update", "^:q", "^:quit" },
+				skip = true,
 			},
 		},
 		popupmenu = {

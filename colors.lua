@@ -2,13 +2,13 @@
 -- Generated from your current Material You colours
 
 local colors = {
-  bg = "#1a120d",
-  fg = "#f0dfd7",
-  accent = "#ffb68a",
-  accent_variant = "#6f3810",
-  error = "#ffb4ab",
-  success = "#e5bfa9",
-  warning = "#cbc992",
+	bg = "#1a120d",
+	fg = "#f0dfd7",
+	accent = "#ffb68a",
+	accent_variant = "#6f3810",
+	error = "#ffb4ab",
+	success = "#e5bfa9",
+	warning = "#cbc992",
 }
 
 return colors
